@@ -1,0 +1,35 @@
+{
+  "uuid": "a9ccc4d2-1024-4a43-a15b-fd8ade12380b",
+  "name": "selenium.magentotests.BagsFormsTest",
+  "children": [
+    "a5f17e0f-347d-4f69-9db6-1db3f5538f09"
+  ],
+  "befores": [
+    {
+      "name": "setUpBrowser",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1689608544299,
+      "stop": 1689608549601
+    }
+  ],
+  "afters": [
+    {
+      "name": "tearDown",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1689608558257,
+      "stop": 1689608558624
+    }
+  ],
+  "start": 1689608544238,
+  "stop": 1689608558657
+}

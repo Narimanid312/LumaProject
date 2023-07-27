@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/HP/IdeaProjects/PracticeProject1">
+        <classes>
+            <class name="selenium.jsExecutor.JsDemo">
+                <methods>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="selenium.login.LoginTests">
+                <methods>
+                    <include name="loginWithCredentials"/>
+                    <include name="loginWithInvalidName"/>
+                    <include name="loginWithInvalidPassword"/>
+                </methods>
+            </class>
+            <class name="selenium.magentotests.BagsFormsTest">
+                <methods>
+                    <include name="test123"/>
+                </methods>
+            </class>
+            <class name="selenium.magentotests.InvalidPassAndLogin">
+                <methods>
+                    <include name="InvalidPassAndLog"/>
+                </methods>
+            </class>
+            <class name="selenium.magentotests.SignUpTest">
+                <methods>
+                    <include name="SignUpTesting"/>
+                </methods>
+            </class>
+            <class name="selenium.magentotests.TestWithInvalidLogin">
+                <methods>
+                    <include name="InvalidLogin"/>
+                </methods>
+            </class>
+            <class name="selenium.magentotests.TestWithInvalidPassword">
+                <methods>
+                    <include name="invalidPasswordLogin"/>
+                </methods>
+            </class>
+            <class name="selenium.magentotests.ValidLoginAndPasswordTest">
+                <methods>
+                    <include name="loginToSite"/>
+                </methods>
+            </class>
+            <class name="selenium.practice.IframeDemo">
+                <methods>
+                    <include name="test123"/>
+                </methods>
+            </class>
+            <class name="selenium.practice.SelectDemo">
+                <methods>
+                    <include name="Demo"/>
+                </methods>
+            </class>
+            <class name="selenium.practicepages.PracticeForm">
+                <methods>
+                    <include name="practicePage"/>
+                </methods>
+            </class>
+            <class name="selenium.test.alertTest.AlertDemoTests">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
