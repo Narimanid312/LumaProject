@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.digitalnomads</groupId>
-    <artifactId>Spring2023AutomationFramework</artifactId>
+    <artifactId>LumaTest</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
