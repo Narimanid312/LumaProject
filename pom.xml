@@ -13,14 +13,15 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.9.19</aspectj.version>
         <maven-surefire-plugin.version>2.20.1</maven-surefire-plugin.version>
         <allure-testng.version>2.6.0</allure-testng.version>
         <resultsPatternAllure>**/allure-results</resultsPatternAllure>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <selenium.version>4.1.3</selenium.version>
-        <mvn.source.version>17</mvn.source.version>
-        <mvn.target.version>17</mvn.target.version>
+        <mvn.source.version>1.8</mvn.source.version>
+        <mvn.target.version>1.8</mvn.target.version>
         <testng.version>7.5</testng.version>
         <aspectj.version>1.9.19</aspectj.version>
         <webdrivermanager.version>5.1.0</webdrivermanager.version>
@@ -81,11 +82,7 @@
             <artifactId>mailosaur-java</artifactId>
             <version>7.12.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.17.0</version>
-        </dependency>
+
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
@@ -93,6 +90,7 @@
             <version>1.9.19</version>
             <scope>runtime</scope>
         </dependency>
+
 
     </dependencies>
 
@@ -160,4 +158,5 @@
 
         </plugins>
     </build>
+
 </project>

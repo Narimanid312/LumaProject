@@ -13,5 +13,6 @@ public class TestThash extends BaseTest {
        WebElement trashbox = driver.findElement(By.xpath("//a[@class='action showcart']"));
         ElementActions elementActions = new ElementActions();
         elementActions.clickTheButton(trashbox);
+
     }
 }
